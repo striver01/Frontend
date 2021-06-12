@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+}
+
+#title{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+}
+#meet{
+    height: 100px;
+    width: 100px;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+#heading-1{
+    font-size: 50px;
+    margin: 13px;
+}
+#heading{
+    justify-content: center;
+    text-align: center;
+}
+
+#para{
+    color: grey;
+    margin: 8px;
+}
+
+#btns{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin: 13px;
+    padding: 13px;
+}
+
+#btn-1{
+    color: white;
+    background-color: teal;
+    border-radius: 20px;
+    padding: 13px;
+    margin: 13px;
+}
+#btn-2{
+    color: white;
+    background-color: purple;
+    border-radius: 20px;
+    padding: 13px;
+    margin: 13px;
+}
