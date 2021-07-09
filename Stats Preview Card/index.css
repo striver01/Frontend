@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#main{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 0;
+    margin: 0;
+    background-color:rgb(222, 222, 247) ;
+    height: 765px;
+}                     
+#container{
+    border: 0px solid black;
+    background-color:rgb(137, 180, 235) ;
+    border-radius: 20px;
+    height: 435px;
+    /* padding: 20px; */
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    margin: 90px auto;
+    text-align: center;
+}
+
+#image{
+    filter: invert(18%) sepia(10%) saturate(2100%) hue-rotate(180deg) brightness(95%) contrast(90%);
+    border-radius: 20px 0 0 20px;
+}
+
+#content{
+    padding: 15px;
+    margin: 20px;
+}
+#heading{
+    color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+}
+#para{
+    color: rgb(65, 58, 58);
+    margin-bottom: 15px;
+    padding: 28px;
+}
+
+#data{
+    display: flex;
+    flex-direction: row;
+    margin:16px;
+    padding: 20px;
+}
+#data1 , #data2 , #data3{
+    padding: 10px;
+}
+#digit{
+    color: rgb(255, 255, 255);
+}
+#title{
+    color:rgb(65, 58, 58) ;
+}
