@@ -1,8 +1,130 @@
+body{
+    background-color: rgb(133, 216, 216);
+}
 #container{
-    border: 1px solid black;
-    padding:10px;
-    width: 550px;
+    /* border: 1px solid black; */
+    /* padding:10px; */
+    width: 750px;
+    display: flex;
+    margin: 8% auto;
+    flex-direction: column;
 }
 #header{
-    border: 1px solid green;
+    /* border: 1px solid #008000; */
+    /* justify-content: center; */
+}
+
+#logo{
+    margin: 3% auto;
+    /* padding: 3% auto; */
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    display: flex;
+}
+
+#second-container{
+    /* border: 1px solid black; */
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+#inputs-field{
+    /* border: 1px solid black; */
+    margin: 9px;
+    width: 450px;
+}
+
+#bill , #selecttip , #no-people{
+    color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 8px;
+}
+
+#input1 , #input2{
+    position: absolute;
+    padding: 7px;
+    text-align: right;
+    color: rgb(27, 131, 131);
+    font-weight: bolder;
+    background-color:rgb(223, 241, 240);
+    border: none;
+    outline: none;
+    margin: 0;
+    width: 300px;
+}
+
+#dollar , #person{
+    position: relative;
+    z-index: 1;
+    margin: 5px;
+}
+
+#input-btns{
+    display: -ms-inline-grid;
+    grid-template-columns: auto auto auto;
+}
+
+button , #custom{
+    padding: 10px;
+    font-size: large;
+    background-color: rgb(24, 143, 127);
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    grid: 3;
+    width: 100px;
+    margin: 10px;
+}
+
+#custom{
+    background-color: rgb(186, 224, 221);
+    cursor: text;
+}
+
+#footer{
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    display: flex;
+    margin: 9px;
+    width: 300px;
+    padding: 10px;
+    flex-direction: column;
+    background-color: darkcyan;
+}
+
+#totaltip ,#totalamount{
+    display: flex;
+    flex-direction: row;
+    /* padding: 20px; */
+}
+
+#tiplabel , #amountlabel{
+    margin: 10px;
+    padding: 8px;
+    color: white;
+}
+
+#person{
+    color: rgb(184, 181, 181);
+}
+
+#tipamount , #amount{
+    color: rgb(111, 203, 206);
+    font-size: 30px;
+    float: right;
+    margin-left: 70px;
+}
+
+#reset{
+    background-color: rgb(89, 168, 168);
+    width: auto;
+    margin-top: 60px;
+    text-align: center;
+    
 }

@@ -15,45 +15,51 @@
             </div>
         </div>
 
-        <h4 id="bill">Bill</h4>
+        <div id="second-container">
+            <div id="inputs-field">
+                <h4 id="bill">Bill</h4>
 
-        <div id="input">
-            <input placeholder="0" type="number" id="input1"/>
-            <img src="./images/icon-dollar.svg" alt="" id="dollar">
-        </div>
-
-        <h4 id="selecttip">Select Tip %</h4>
-
-        <div id="input-btns">
-            <button id="tip-percent" id="5%">5%</button>
-            <button id="tip-percent" id="10%">10%</button>
-            <button id="tip-percent" id="15%">15%</button>
-            <button id="tip-percent" id="25%">25%</button>
-            <button id="tip-percent" id="50%">50%</button>
-            <button id="tip-custom" id="custom">Custom</button>
-        </div>
-
-        <h4 id="no-people">Number of People</h4>
-
-        <div id="input">
-            <input placeholder="0" type="number" id="input2"/>
-            <img src="./images/icon-person.svg" alt="" id="person">
-        </div>
-
-        <div id="footer">
-            <div id="amount">
-                <div id="total-tip">
-                    <h4 id="tip">Tip Amount</h4>
-                    <h7 id="/person">/ person</h7>
+                <div id="input">
+                    <input placeholder="0" type="number" id="input1"/>
+                    <img src="./images/icon-dollar.svg" alt="" id="dollar">
                 </div>
-                <h5 id="totaltip">$4.27</h5>
+
+                <h4 id="selecttip">Select Tip %</h4>
+
+                <div id="input-btns">
+                    <button id="tip-percent" id="5%">5%</button>
+                    <button id="tip-percent" id="10%">10%</button>
+                    <button id="tip-percent" id="15%">15%</button>
+                    <button id="tip-percent" id="25%">25%</button>
+                    <button id="tip-percent" id="50%">50%</button>
+                    <input  id="custom" placeholder="Custom"/>
+                </div>
+
+                <h4 id="no-people">Number of People</h4>
+
+                <div id="input">
+                    <input placeholder="0" type="number" id="input2"/>
+                    <img src="./images/icon-person.svg" alt="" id="person">
+                </div>
+
             </div>
-            <div id="total">
-                <div id="total-amount">
-                    <h4 id="total">Total</h4>
-                    <h7 id="/person">/ person</h7>
+
+            <div id="footer">
+                <div id="totaltip">
+                    <div id="tiplabel">
+                        <h7 id="tip">Tip Amount</h7><br>
+                        <h7 id="person">/ person</h7>
+                    </div>
+                    <h3 id="tipamount">$0.00</h3>
                 </div>
-                <h5 id="totalamount">$4.27</h5>
+                <div id="totalamount">
+                    <div id="amountlabel">
+                        <h7 id="total">Total</h7><br>
+                        <h7 id="person">/ person</h7>
+                    </div>
+                    <h3 id="amount">$0.00</h3>
+                </div>
+                <button id="reset">Reset</button>
             </div>
         </div>
     </div>
