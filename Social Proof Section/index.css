@@ -4,24 +4,29 @@
 }
 
 #container{
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    background-image: url(./images/bg-pattern-top-desktop.svg) , url(./images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat , no-repeat;
+    background-position: left top , right bottom;
+    height: 785px;
 }
 
 #header{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: row;
     padding: 20px;
+    justify-content: space-evenly;
 }
 
 #heading{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 20px;
-    width: 400px;
+    width: 500px;
 }
 
 #header-part-2{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 20px;
 }
 
@@ -29,5 +34,94 @@
     color: purple;
     font-weight: bold;
     font-size: 60px;
+    display: flex;
+}
+
+#secH{
+    color: grey;
+    margin-top: 30px;
+}
+
+#rated1 , #rated2 , #rated3{
+    /* border: 1px solid black; */
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(241, 231, 241);
+    border-radius: 10px;
+}
+
+#stars-line{
+    color: purple;
+    margin-left: 25px;
+}
+
+#rated2{
+    margin-left: 80px;
+    margin-right: 0px;
+}
+
+#rated3{
+    margin-left: 130px;
+    margin-right: -30px;
+}
+
+#reviews{
+    /* border: 1px solid black; */
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+#review-box1 , #review-box2 , #review-box3{
+    /* border: 1px solid black; */
+    color: white;
+    background-color: purple;
+    width: 400px;
+    margin: 10px;
+    padding: 20px;
+    padding-bottom: 0;
+    border-radius: 15px;
+}
+
+#review-box2{
+    margin-top: 40px;
+    margin-bottom: -20px ;
+    padding: 30px;
+}
+
+#review-box3{
+    margin-top: 70px;
+    margin-bottom: -60px ;
+    padding: 30px;
+}
+
+#review-header{
+    display: flex;
+    flex-direction: row;
+    /* padding: 30px; */
+    /* border: 1px solid black; */
+    /* justify-content: space-evenly; */
+}
+
+#reviewer-img{
+    border-radius: 50px;
+    margin: 20px;
+}
+
+#revier-name{
+    /* border: 1px solid black; */
+    margin: 20px;
+    padding: 10px;
+}
+
+#h5{
+    color: rgb(216, 160, 216);
+}
+
+#review1 , #review2 , #review3{
+    color: rgb(216, 215, 215);
     display: flex;
 }

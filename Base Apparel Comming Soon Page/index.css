@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#container{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+}
+
+#content{
+    /* border: 2px solid yellow; */
+    padding: 50px;
+    margin-bottom: 0;
+    width: 40%;
+    margin-left: 50px;
+    height: 100%;
+    /* margin-top: 20px; */
+}
+
+#header{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+    /* margin: -20px; */
+}
+
+#main{
+    /* border: 1px solid black; */
+    margin-top: 70px;
+}
+
+#main-heading{
+    font-size: 110px;
+    word-spacing: 5px;
+    line-break: strict;
+    letter-spacing: 4px;
+    font-weight: lighter;
+}
+
+#para{
+    color: pink;
+    font-size: 21px;
+    word-spacing: 9px;
+}
+
+#button{
+    margin: 20px;
+}
+
+#mail{
+    padding: 20px;
+    border-color: pink;
+    outline: none;
+    border-radius: 20px;
+    width: 300px;
+    position: absolute;
+    font-size: 15px;
+}
+
+#error{
+    visibility: hidden;
+    /* margin-right: 60px; */
+    position: relative;
+    z-index: 1;
+    margin-left: 10px;
+}
+
+#next-btn{
+    position: relative;
+    z-index: 1;
+    margin-left: 260px;
+    padding: 10px;
+    border-radius: 50px;
+    width: 100px;
+    border-color: pink;
+    outline:none;
+    color: white;
+    background-color:pink;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+#image{
+    /* border: 4px solid yellow; */
+    margin-left: 200px;
+    /* padding: 10px; */
+    width: 38.7%;
+    /* float: right; */
+    /* height: 100%; */
+    /* overflow: hidden; */
+}
+
+#person-image{
+    /* border: 1px solid black; */
+    margin: 0;
+    /* height: 100%; */
+}
