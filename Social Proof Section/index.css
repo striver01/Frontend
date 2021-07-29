@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    border: 1px solid black;
+}
+
+#header{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+#heading{
+    border: 1px solid black;
+    margin: 20px;
+    width: 400px;
+}
+
+#header-part-2{
+    border: 1px solid black;
+    margin: 20px;
+}
+
+#mainH{
+    color: purple;
+    font-weight: bold;
+    font-size: 60px;
+    display: flex;
+}
