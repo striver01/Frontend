@@ -7,6 +7,7 @@
     /* border: 1px solid black; */
     background-color: rgb(161, 80, 207);
     background-image: url('./images/bg-desktop.svg');
+    overflow: hidden;
 }
 
 #header{
