@@ -6,9 +6,12 @@ function validate(){
     // var mailFormat = /^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$/
     // var isValid = mail.value.matches(mailFormat);
     if(/^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$/.test(mail.value)){
-        console.log('valid');
+        alert("Thankyou!, we'll notify you");
     }
-    if(mail === ''){
-        console.log("correct");
+    else if(mail.value === ''){
+        alert("Kindly fill the mail");
+    }
+    else{
+        alert("Kindly fill valid mail");
     }
 }
