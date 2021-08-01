@@ -2,24 +2,15 @@ body{
     background-color: rgb(133, 216, 216);
 }
 #container{
-    /* border: 1px solid black; */
-    /* padding:10px; */
     width: 770px;
     display: flex;
     margin: 8% auto;
     flex-direction: column;
 }
-#header{
-    /* border: 1px solid #008000; */
-    /* justify-content: center; */
-}
+
 
 #logo{
     margin: 3% auto;
-    /* padding: 3% auto; */
-    /* justify-content: center;
-    align-items: center;
-    text-align: center; */
     display: flex;
 }
 
