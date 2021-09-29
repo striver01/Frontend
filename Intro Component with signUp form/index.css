@@ -7,9 +7,10 @@
     margin: 0;
     padding: 120px;
     /* border: 1px solid black; */
+    background-image: url(./images/bg-intro-desktop.png);
     display: flex;
     flex-direction: row;
-    background-color: rgb(248, 126, 126);
+    background-color: rgb(248, 114, 114);
 }
 
 #content{
@@ -70,7 +71,7 @@
 }
 
 #firstname:focus , #lastname:focus  , #email:focus  , #pwd:focus{
-    border-color: grey;
+    border-color: white;
 }
 
 #btn{
