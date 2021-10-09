@@ -1,72 +1,77 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-#container{
-    /* border: 1px solid black; */
-    background-color: rgb(161, 80, 207);
-    background-image: url('./images/bg-desktop.svg');
-    overflow: hidden;
+#container {
+  /* border: 1px solid black; */
+  background-color: rgb(161, 80, 207);
+  background-image: url("./images/bg-desktop.svg");
+  overflow: hidden;
 }
 
-#header{
-    /* border: 1px solid black; */
-    margin: 20px;
-    padding: 20px;
+#header {
+  /* border: 1px solid black; */
+  margin: 20px;
+  padding: 20px;
 }
 
-#main{
-    /* border: 1px solid black; */
-    margin: 20px;
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    color: white;
+#main {
+  /* border: 1px solid black; */
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  color: white;
 }
 
-#content{
-    /* border: 1px solid black; */
-    margin: 60px;
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
+#content {
+  /* border: 1px solid black; */
+  margin: 60px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
 }
 
-#main-heading{
-    font-weight: bold;
-    font-size: 50px;
-    margin: 10px;
+#main-heading {
+  font-weight: bold;
+  font-size: 50px;
+  margin: 10px;
 }
 
-#para{
-    margin: 20px;
-    color: rgb(233, 227, 227);
-    font-size: 17px;
+#para {
+  margin: 20px;
+  color: rgb(233, 227, 227);
+  font-size: 17px;
 }
 
-#btn{
-    border-radius: 20px;
-    color:rgb(161, 80, 207);
-    width: 150px;
-    padding: 15px;
-    outline: none;
-    border: none;
-    margin: 20px;
+#btn {
+  border-radius: 20px;
+  color: rgb(161, 80, 207);
+  width: 150px;
+  padding: 15px;
+  outline: none;
+  border: none;
+  margin: 20px;
 }
 
-#social-icons{
-    /* float: right; */
-    display: flex;
-    margin-left: 1400px;
-    margin-bottom: 40px;
+#btn a {
+  text-decoration: none;
+  color: rgb(161, 80, 207);
 }
 
-#icon{
-    padding: 7px;
-    border-color: white;
-    color: white;
-    margin: 7px;
-    border: 1px solid white;
-    border-radius: 50px;
+#social-icons {
+  /* float: right; */
+  display: flex;
+  margin-left: 1400px;
+  margin-bottom: 40px;
+}
+
+#icon {
+  padding: 7px;
+  border-color: white;
+  color: white;
+  margin: 7px;
+  border: 1px solid white;
+  border-radius: 50px;
 }
